@@ -16,6 +16,10 @@ body {
     background-color: aqua;
 }
 
+li {
+padding: 0px 0px 10px 0px;
+}
+
 /*--------------------------
         HEADER
 --------------------------*/
@@ -41,14 +45,19 @@ header {
         MAIN
 --------------------------*/
 
-main {
+div {
     background-color: yellow;
     width: 800px;
     margin: 0 auto;
     /*border-radius: 20px;*/
-    padding: 20px;
+    padding: 30px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.noborder {
+    border-radius: 0;
+    padding: 30px 30px 0px 30px;
 }
 
 .topmain {
@@ -63,7 +72,7 @@ main {
     border-radius: 8px;
     background-color: transparent;
     border: 1px solid;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 .btn-blue {
@@ -77,4 +86,104 @@ main {
     color: #C4CBD0;
     border-color:  #C4CBD0;
     ;
+}
+
+hr {
+    height: 5px;
+    background-color: transparent;
+    border: transparent;
+}
+
+.circle-green {
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border: 1px solid green;
+    font-size: 11px;
+    font-weight: 1000;
+}
+
+.circle-red {
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border: 1px solid red;
+    font-size: 11px;
+    font-weight: 1000;
+}
+
+h3 {
+    padding: 0px 0px 10px 0px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.tag-blue {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #14AAF5;
+}
+
+.tag-viola {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #ab5de6;
+}
+
+.tag-verde {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #2CC6AB;
+}
+
+.tag-arancione {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #FF9B00;
+}
+
+.tag-fucsia {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #EC4A9D;
+}
+
+.tag-lime {
+    display: inline-block;
+    color: white;
+    font-size: 12px;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-color: #A3D116;
+}
+
+ul {
+    list-style: none;
 }
