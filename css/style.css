@@ -1,12 +1,36 @@
-/*--------------------
-    RESET
---------------------*/
+/*--------------------------
+        RESET
+--------------------------*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/*--------------------------
+        GENERAL
+--------------------------*/
+
 body {
     font-family: "roboto", sans-serif;
+}
+
+/*--------------------------
+        HEADER
+--------------------------*/
+
+.logo {
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+header {
+    background-color: white;
+    padding: 20px 25px;
 }
